@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dad Jokes</title>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<bodyset tabstop=4>
+	<div class="nav-bar">
+		<div class="logo">
+			<img src="./img/logo.png" alt="Dad Jokes">
+		</div>
+		<ul>
+			<li>Home</li>
+			<li>About us</li>
+			<li>Contact Us</li>
+		</ul>
+		<div class="time-container">
+			Time:
+			<p id="time"></p>
+		</div>
+	</div>
+	<div class="main-container">
+		<h1 id="title">
+			Feel stressed? You have come to the right place
+		</h1>
+		<p></p>
+		<div class="joke-container">
+			<p id="joke-box"></p>
+			<button id="get-joke-btn">Get a joke</button>
+		</div>
+	</div>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
